@@ -1,0 +1,92 @@
+*{
+    color: violet ;
+    background-image: url(https://1.bp.blogspot.com/-V_sEqzyzRks/XtzHrXG1FuI/AAAAAAAAXUY/As3Y1v6PEfwkFkoCYuBuwByUZQ2bRQ1GgCLcBGAsYHQ/s1600/sao%2Bgia%25CC%2580-2.jpg) ;
+    background-size: 100% !important;
+}
+:root{
+    --mau: red;
+}
+::selection{
+    color: white;
+    background-color: violet;
+}
+input{
+    color: brown;
+}
+h1{
+    color: red;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+h2{
+    color: blue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+h3{
+    color:blueviolet;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+#tenid1{
+    color:yellowgreen;
+    font-size: 40px;
+}
+.lop1{
+    color: var(--mau);
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+}
+.lop2{
+    color:tomato;
+    /* background-color: red !important; */
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+}
+.lop3{
+    color:teal;
+}
+.lop4{
+    color:crimson;
+}
+.lop5{
+    margin-top: 20px !important;
+    color:rgb(223, 77, 113);
+}
+.lop6{
+    color:maroon;
+}
+table.lop5{
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    margin-left: 0%;
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    /* color: white !important; */
+    /* background-color: red !important; */
+    
+}
+table.lop7{
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    margin-left: 0%;
+    border: 3px solid red;
+
+}
+img{
+    width: 100%;
+    color: crimson !important;
+    float: left !important;
+}
+button:hover{
+    color: white;
+    background-color: blue !important;
+}
+button{
+    color: red !important;
+}
